@@ -1,0 +1,18 @@
+{
+  "name": "@jurgenlangbroek/openclaw-skill-gymly",
+  "version": "1.0.0",
+  "description": "OpenClaw skill for Gymly (Vondelgym) gym class management",
+  "files": [
+    "SKILL.md"
+  ],
+  "keywords": [
+    "openclaw",
+    "skill",
+    "gymly",
+    "vondelgym",
+    "gym"
+  ],
+  "dependencies": {
+    "@jurgenlangbroek/gymly-cli": "^1.0.0"
+  }
+}
