@@ -35,19 +35,19 @@ gymly login <email> <password>
 Multiple accounts are supported via the `--profile` flag. Each profile has its own login session.
 
 ```bash
-gymly login --profile jurgen <email> <password>
-gymly login --profile girlfriend <email> <password>
+gymly login --profile alice <email> <password>
+gymly login --profile bob <email> <password>
 gymly profiles   # list all profiles and their status
 ```
 
 Use `--profile <name>` on any command to act as that profile:
 
 ```bash
-gymly schedule today --profile jurgen
-gymly upcoming --profile girlfriend
+gymly schedule today --profile alice
+gymly upcoming --profile bob
 ```
 
-When the user says "check my schedule" → use their profile. When they say "check Jurgen's schedule" or "check girlfriend's schedule" → use the appropriate `--profile`.
+When the user says "check my schedule" → use their default profile. When they reference someone by name → use the appropriate `--profile`.
 
 ## All Commands
 

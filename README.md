@@ -33,7 +33,7 @@ Server runs on `http://localhost:3200`.
 ```bash
 gymly login <email> <password>
 # or with a named profile:
-gymly login --profile jurgen <email> <password>
+gymly login --profile alice <email> <password>
 ```
 
 ### 3. Use it
@@ -49,10 +49,10 @@ gymly cancel <courseId> <date>
 ## Multi-Profile Support
 
 ```bash
-gymly login --profile jurgen <email> <password>
-gymly login --profile girlfriend <email> <password>
+gymly login --profile alice <email> <password>
+gymly login --profile bob <email> <password>
 gymly profiles                          # list all
-gymly schedule today --profile jurgen   # query as specific profile
+gymly schedule today --profile alice   # query as specific profile
 ```
 
 ## CLI Installation
